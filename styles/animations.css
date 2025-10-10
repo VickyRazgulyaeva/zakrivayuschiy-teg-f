@@ -9,7 +9,7 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-@keyframes scale {
+@keyframes heartIconScale {
   from {
     transform: scale(1);
   }
@@ -20,14 +20,14 @@
 }
 
 .like-icon.is-liked .sparks {
-  animation-name: spark;
+  animation-name: heartSparksAppearance;
   animation-duration: 0.3s;
   animation-delay: 0.3s;
   animation-timing-function: ease-in;
   animation-iteration-count: 1;
 }
 
-@keyframes spark {
+@keyframes heartSparksAppearance {
   from {
     opacity: 0;
   }
